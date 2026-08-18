@@ -1,0 +1,105 @@
+{
+  "dataset": "UCI QSAR Biodegradation (OpenML: qsar-biodeg v1)",
+  "task": "Binary classification of chemical biodegradability (RB vs NRB)",
+  "n_features": 41,
+  "n_instances": 1055,
+  "feature_names": [
+    "mol_desc_01",
+    "mol_desc_02",
+    "mol_desc_03",
+    "mol_desc_04",
+    "mol_desc_05",
+    "mol_desc_06",
+    "mol_desc_07",
+    "mol_desc_08",
+    "mol_desc_09",
+    "mol_desc_10",
+    "mol_desc_11",
+    "mol_desc_12",
+    "mol_desc_13",
+    "mol_desc_14",
+    "mol_desc_15",
+    "mol_desc_16",
+    "mol_desc_17",
+    "mol_desc_18",
+    "mol_desc_19",
+    "mol_desc_20",
+    "mol_desc_21",
+    "mol_desc_22",
+    "mol_desc_23",
+    "mol_desc_24",
+    "mol_desc_25",
+    "mol_desc_26",
+    "mol_desc_27",
+    "mol_desc_28",
+    "mol_desc_29",
+    "mol_desc_30",
+    "mol_desc_31",
+    "mol_desc_32",
+    "mol_desc_33",
+    "mol_desc_34",
+    "mol_desc_35",
+    "mol_desc_36",
+    "mol_desc_37",
+    "mol_desc_38",
+    "mol_desc_39",
+    "mol_desc_40",
+    "mol_desc_41"
+  ],
+  "target_column": "biodeg_label",
+  "class_names": {
+    "0": "1",
+    "1": "2"
+  },
+  "hold_out_ratio": 0.25,
+  "seed": 2026,
+  "artifact_map": {
+    "Logistic Regression": "artifact_logreg.joblib",
+    "Decision Tree": "artifact_dtree.joblib",
+    "kNN": "artifact_knn.joblib",
+    "Naive Bayes": "artifact_gauss_nb.joblib",
+    "Random Forest (Ensemble)": "artifact_rf_ensemble.joblib"
+  },
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.8371212121212122,
+      "AUC": 0.8964365971107545,
+      "Precision": 0.7254901960784313,
+      "Recall": 0.8314606741573034,
+      "F1": 0.774869109947644,
+      "MCC": 0.6518940492972327
+    },
+    "Decision Tree": {
+      "Accuracy": 0.7689393939393939,
+      "AUC": 0.8147030497592296,
+      "Precision": 0.6372549019607843,
+      "Recall": 0.7303370786516854,
+      "F1": 0.680628272251309,
+      "MCC": 0.503787311763266
+    },
+    "kNN": {
+      "Accuracy": 0.8257575757575758,
+      "AUC": 0.8900481540930978,
+      "Precision": 0.7311827956989247,
+      "Recall": 0.7640449438202247,
+      "F1": 0.7472527472527473,
+      "MCC": 0.6147484134110055
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.6818181818181818,
+      "AUC": 0.8531300160513644,
+      "Precision": 0.5161290322580645,
+      "Recall": 0.898876404494382,
+      "F1": 0.6557377049180327,
+      "MCC": 0.4515590007313546
+    },
+    "Random Forest (Ensemble)": {
+      "Accuracy": 0.8522727272727273,
+      "AUC": 0.8991974317817014,
+      "Precision": 0.7840909090909091,
+      "Recall": 0.7752808988764045,
+      "F1": 0.7796610169491526,
+      "MCC": 0.6685793856106867
+    }
+  }
+}
