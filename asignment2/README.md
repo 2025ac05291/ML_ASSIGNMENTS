@@ -63,7 +63,7 @@ Descriptor families include constitutional indices, topological indices, and cha
 
 ## c. Repository Link
 
-Assignment materials are under the `asignment2/` folder in this repository.
+**Repository:** [https://github.com/2025ac05291/ML_ASSIGNMENTS/tree/main/asignment2](https://github.com/2025ac05291/ML_ASSIGNMENTS/tree/main/asignment2)
 
 ---
 
